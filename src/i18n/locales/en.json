@@ -1,0 +1,10 @@
+{
+  "app.title": "Gemini App",
+  "prompt.placeholder": "Enter your prompt...",
+  "prompt.submit": "Send",
+  "prompt.imageUpload": "Upload Image",
+  "output.loading": "Generating response...",
+  "output.empty": "Send a message to get started.",
+  "error.noApiKey": "API key is not configured. Check your .env file.",
+  "error.generation": "Failed to generate response. Please try again."
+}

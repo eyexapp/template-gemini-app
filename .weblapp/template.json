@@ -1,0 +1,33 @@
+{
+  "name": "gemini-app",
+  "displayName": "Gemini App",
+  "description": "Google AI Gemini application template with multi-modal support, streaming, and Firebase integration",
+  "category": "ai",
+  "language": "typescript",
+  "framework": "node",
+  "stack": ["google-ai", "gemini", "typescript", "firebase"],
+  "features": ["gemini-api", "multi-modal", "streaming", "firebase-hosting"],
+  "commands": {
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "test": "npm test"
+  },
+  "packageManager": "npm",
+  "ci": {
+    "workflowTemplate": "gemini-app",
+    "runner": "ubuntu-latest",
+    "runtime": {
+      "name": "node",
+      "version": "20",
+      "setup": "actions/setup-node@v4",
+      "cache": "npm"
+    },
+    "services": {},
+    "steps": {
+      "install": "npm ci",
+      "build": "npm run build",
+      "test": "npm test",
+      "lint": null
+    }
+  }
+}

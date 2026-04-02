@@ -1,0 +1,10 @@
+{
+  "app.title": "Gemini Uygulama",
+  "prompt.placeholder": "Mesajınızı yazın...",
+  "prompt.submit": "Gönder",
+  "prompt.imageUpload": "Resim Yükle",
+  "output.loading": "Yanıt oluşturuluyor...",
+  "output.empty": "Başlamak için bir mesaj gönderin.",
+  "error.noApiKey": "API anahtarı yapılandırılmamış. .env dosyanızı kontrol edin.",
+  "error.generation": "Yanıt oluşturulamadı. Lütfen tekrar deneyin."
+}
